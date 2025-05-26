@@ -5,7 +5,7 @@ import socket
 
 HandTacking = Flask(__name__)
 
-@HandTacking.route('/Tacking-user', methods=['POST'])
+@HandTacking.route('/Tacking-user', methods=['GET'])
 def Tacking_user():
  w,h=1280,720
  cap = cv2.VideoCapture(0)
