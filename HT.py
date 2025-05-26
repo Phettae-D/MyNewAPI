@@ -72,3 +72,5 @@ def Tacking_user():
 
 if __name__ == "__main__":
     HandTacking.run(host='0.0.0.0')
+
+Tacking_user()
